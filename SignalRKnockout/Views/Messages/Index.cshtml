@@ -1,0 +1,37 @@
+﻿@{ ViewBag.Title = "Messages"; }
+<h1>Messages</h1>
+<div id="MessageSummary">
+    <div data-bind="text:Count" class="MessageCount"></div>
+    
+    <div data-bind="text:Messages" class="messages"></div>
+    
+    <button data-bind="click: CheckForMessage">Check For Messages</button>
+</div>
+<script type="text/javascript" src="/signalr/hubs"></script>
+<script type="text/javascript">
+
+    var messageDataViewModel = {
+        Count : ko.observable(),
+        Messages : ko.observableArray(),
+        CheckForMessage: function () { messages.checkForNewMessages(); }
+    };
+
+    ko.applyBindings(messageDataViewModel, $("#MessageSummary")[0]);
+
+    var messages;
+    $(function () {
+        messages = $.connection.messageHub;
+
+        messages.updateMessageCount = function (data) {
+            messageDataViewModel.Count(data);
+        };
+
+        messages.displayMessage = function (data) {
+            messageDataViewModel.Messages.push(data);
+        };
+
+        $.connection.hub.start(function () {
+            messages.getMessageCount();
+        });
+    });
+</script>
