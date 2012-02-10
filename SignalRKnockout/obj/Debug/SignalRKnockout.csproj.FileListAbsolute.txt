@@ -1,0 +1,13 @@
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\bin\SignalRKnockout.dll
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\bin\SignalRKnockout.pdb
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\bin\EntityFramework.dll
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\bin\Microsoft.Web.Infrastructure.dll
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\bin\Newtonsoft.Json.dll
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\bin\SignalR.dll
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\bin\SignalR.Hosting.AspNet.dll
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\bin\EntityFramework.xml
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\bin\Newtonsoft.Json.pdb
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\bin\Newtonsoft.Json.xml
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\obj\Debug\ResolveAssemblyReference.cache
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\obj\Debug\SignalRKnockout.dll
+c:\users\codyc\documents\visual studio 2010\Projects\SignalRKnockout\SignalRKnockout\obj\Debug\SignalRKnockout.pdb
